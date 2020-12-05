@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AnalysisLevel>5</AnalysisLevel>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>UsefulCodeLabs.DirectoryManager</PackageId>
+    <Version>0.0.1.1-beta</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>None</Company>
+    <Authors>UsefulCodeLabs</Authors>
+    <PackageProjectUrl>https://github.com/UsefulCodeDev/DirectoryManager</PackageProjectUrl>
+    <!--<PackageIconUrl>http://static.threenine.co.uk/threeninemap_icon.png</PackageIconUrl>-->
+    <!--<PackageTags>generic repository</PackageTags>-->
+    <Copyright>Copyright 2020</Copyright>
+    <Description>Directory Manager</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/UsefulCodeDev/DirectoryManager</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RootNamespace>UsefulCode.DirectoryManager</RootNamespace>
+    <AssemblyName>UsefulCode.DirectoryManager</AssemblyName>
+    <NoWarn>CA1416</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IO.FileSystem.AccessControl" Version="5.0.0" />
+    <PackageReference Include="System.Security.AccessControl" Version="5.0.0" />
+  </ItemGroup>
+</Project>

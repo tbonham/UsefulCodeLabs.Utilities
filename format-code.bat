@@ -1,0 +1,1 @@
+dotnet format .\src\UsefulCodeLabs.Utilities\
